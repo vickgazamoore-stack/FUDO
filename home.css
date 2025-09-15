@@ -419,6 +419,174 @@ header {
   font-size: 20px;
   margin: 0;
 }
+/* chef */
+.about-us{                    
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.left{
+    width: 50%;
+    padding: 2rem;
+    justify-content: space-between;
+    position: relative;
+    margin: 0;
+     background-image:url(/ASSETS/image/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.right{
+    width: 50%;
+    
+    align-content: center;
+    
+}
+#p{
+color: #EB5757;
+font-family: Poppins;
+font-weight: 600;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 22.4px;
+letter-spacing: 16%;
+
+}
+.right h5{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 45px;
+leading-trim: NONE;
+line-height: 60px;
+letter-spacing: 0%;
+
+}
+.right p{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+margin: 0;
+
+}
+#chef{
+width: 100% ; 
+}
+#onion{
+    position: absolute;
+    top:16.6%;
+    left:11%;
+    transform:rotate(11.83deg) ;
+}
+#onion2{
+    position: absolute;
+    top: 14%;
+    left: 6%;
+    transform: rotate(-42.45deg);
+}
+#leave{
+    position:absolute;
+    top:4%;
+    right:5%;
+}
+#popcorn{
+    position:absolute;
+    top:35%;
+    left:4.5%;
+}
+#four{
+     position:absolute;
+    bottom:-13%;
+    left:40%;
+    width: 55%;
+}
+#leaf{
+position: absolute;
+top: 4%;
+right:18%;
+transform: rotate(-50deg);
+width: 9rem;
+}
+#pepper{
+position: absolute;
+right: 20%;
+bottom:17%;
+
+}
+#pepper2{
+position: absolute;
+right: 15%;
+bottom: 20%;
+}
+#rec{
+    position: absolute;
+    top: 0;
+    right: 70%;
+
+}
+#rec-1{
+    position: absolute;
+    bottom:22% ;
+    left: 0;
+
+}
+#rec-2{
+    position: absolute;
+    top: 22%;
+    right: -75%;
+    color: #F2C94C;
+
+}
+#rec-3{
+    position: absolute;
+    bottom: 50%;
+    right: 10%;
+
+}
+.icon{
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.icon p{
+  font-family: Poppins;
+font-weight: 500;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+color: #000000;  
+}
+.icon h4{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+color: #828282;
+}
+.photo{
+    padding-right: 1rem;
+}
+.star { 
+}
+#img{
+    margin-left: 0.6rem;
+}
+.star span{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 25.4px;
+letter-spacing: 0%;
+color: #000000;
+margin-left: 0.5rem;
+}
 
 /* footer */
 .parent{
