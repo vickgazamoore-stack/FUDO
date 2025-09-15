@@ -1,0 +1,421 @@
+/* ========== RESET STYLES ========== */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; /* default font */
+  overflow-x: hidden; /* stop horizontal scroll */
+  
+}
+
+/* ========== HEADER ========== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 100px;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo h4 {
+  font-size: 28px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.login {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.login a{
+  color: #000;
+}
+
+.login button {
+  width: 160px;
+  height: 60px;
+  border-radius: 60px;
+  font-size: 18px;
+  background-color: #EB5757;
+  color: white;
+  border: none;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* LEFT HERO TEXT */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.hero-text h2 {
+  font-size: 80px;
+  font-weight: 600;
+  margin: 40px 0;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.hero-text p {
+  font-size: 25px;
+  color: #333;
+}
+
+.foodcolor {
+  color: #EB5757;
+}
+
+.redfruit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  padding: 20px;
+  border-radius: 60px;
+  background-color: #fee9de;
+  gap: 10px;
+}
+
+.redfruit a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #EB5757;
+}
+
+.getstarted {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.getstarted button {
+  padding: 20px 50px;
+  border: none;
+  border-radius: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 250px;
+  height: 100px;
+}
+
+.getstarted button:first-child {
+  background: #EB5757;
+  color: white;
+}
+
+.getstarted button:last-child {
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.getstarted button:last-child i{
+  color: #f2c94c;
+}
+
+/* CUSTOMER REVIEW (ECLIPES) */
+.eclipes {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 200px;
+}
+
+
+.eclipes img {
+  width: 80px;
+  height: 80px;
+  gap: -30px;
+}
+
+.eclipesrating h3 {
+  font-size: 20px;
+}
+
+.erating .star {
+  color: #f2c94c;
+}
+
+/* RIGHT HERO IMAGE */
+.heroimg {
+  position: relative; 
+}
+
+.heropic img {
+  width: 900px;
+  display: block;
+}
+
+.clock img{ width: 150px;}
+.fire img{ width: 50px;}
+.arrow img{ width: 100px;}
+.yellowdot img{ width: 15px;}
+.reddotside img{ width: 20px;}
+.redhotbottom img{ width: 20px;}
+
+/* FLOATING ITEMS */
+.clock { position: absolute; top: 130px; left: 120px; }
+.fire { position: absolute; top: 100px; left: 800px; }
+.arrow { position: absolute; top: 280px; left: 830px; }
+.yellowdot { position: absolute; top: 450px; left: 100px; }
+.reddotside { position: absolute; top: 700px; left: 900px; }
+.redhotbottom { position: absolute; bottom: -100px; left: 350px; }
+
+/* FLOATING CARD: Courier */
+.emoji {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  background-color: white;
+  border-radius: 100px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  padding: 0 15px;
+}
+
+.emoji img {
+  width: 50px;
+  height: 50px;
+}
+
+/* FLOATING CARD: Pizza */
+.pizza {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: 270px;
+  height: 120px;
+  border-radius: 15px;
+  background-color: white;
+  position: absolute;
+  bottom: -50px;
+  left: 590px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.pizzastar span {
+  color: #f2c94c;
+}
+
+.pizzastar h4 {
+  font-size: 20px;
+}
+
+/* our services and partner */
+.services{
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+}
+
+.services span{
+  font-size: 28px;
+  margin: 0;
+}
+
+.services h1{
+  font-size: 60px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.733);
+}
+
+.services span{
+  font-size: 28px;
+  font-weight: 600;
+  color: #EB5757;
+}
+
+.services img{
+  width: 20px;
+}
+
+/* --------floating dots------- */
+.reddotleft img{ position: absolute; left: 500px; bottom: 100px;}
+.yellowdotright{ position: absolute; right: 500px; bottom: 120px;}
+
+/* ----------delivery order bike and waiters---------- */
+.delivery{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.delivery img{
+  width: 350px;
+}
+
+.delivery h4{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.delivery p{
+  font-size: 25px;
+  margin: 0;
+}
+
+/* -------menu, floating and arrow left and right-------- */
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.menu1 p{
+  font-size: 32px;
+  text-align: start;
+  margin: 0;
+  color: #EB5757;
+}
+
+.menu h4{
+  font-size: 55px;
+  font-family: "Poppins";
+  text-align: start;
+  font-weight: 800;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.781);
+}
+
+.arrowleftright img{
+  padding: 25px;
+  border-radius: 70px;
+  background-color: #EB5757;
+}
+
+/* <!-- section for burger, pizza, cupcake, ramen and ice cream --> */
+.manubar{
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+  position: relative;
+
+}
+
+.pizzaall{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  object-fit: cover;
+}
+
+.aside{
+  width: 35%;
+  margin-left: 50px;
+  text-align: start;
+  font-size: 32px;
+  padding: 30px;
+}
+
+.aside img{
+  width: 50px;
+  
+}
+
+.arrowleftright{
+  gap: 80px;
+}
+
+.pizzaleft{
+  position: relative;
+}
+
+.Italianpizza{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  color: white;
+}
+
+.pizzaright{
+  position: relative;
+}
+
+.Sausagepizza{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  color: white;
+}
+
+.pizzaleft img{
+  width: 500px;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.pizzaright img{
+  width: 350px;
+  height: 550px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* ------pizza type---- */
+.pizzatype{
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* -----pizza amount----- */
+.pizzaamount{
+  font-size: 45px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* ------order now------ */
+.ordernow{
+  font-size: 20px;
+  margin: 0;
+}
