@@ -3,6 +3,8 @@
 .content-wrapper {
   display: flex;
   width: 80%;
+  justify-self: center;
+  align-self: centerupdated;
   height: 10rem;
   background-color: rgba(255, 221, 204, 0.25);
   padding: 15rem 3rem;
