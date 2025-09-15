@@ -758,37 +758,38 @@ header {
   justify-content: space-between;
   position: relative;
   margin: 0;
-  background-image: url(/ASSETS/image/Rectangle\ 4.png);
+  background-image: url(/ASSET/images/Rectangle\ 4.png);
   background-repeat: no-repeat;
-  background-position: bottom;
+   background-position: bottom ;  
+  background-size: 75%;  
+}
+.chefimg{
+  position: relative;
+  top: 39px;
 }
 .right {
-  width: 50%;
-
   align-content: center;
 }
 #p {
   color: #eb5757;
   font-family: Poppins;
   font-weight: 600;
-  font-size: 18px;
-  leading-trim: NONE;
+  font-size: 25px;
   line-height: 22.4px;
   letter-spacing: 16%;
+  position: relative;
+  top: 70px;
 }
 .right h5 {
   font-family: Poppins;
   font-weight: 700;
-  font-size: 45px;
-  leading-trim: NONE;
+  font-size: 75px;
   line-height: 60px;
-  letter-spacing: 0%;
 }
 .right p {
   font-family: Poppins;
   font-weight: 500;
-  font-size: 20px;
-  leading-trim: NONE;
+  font-size: 30px;
   line-height: 30px;
   letter-spacing: 0%;
   margin: 0;
