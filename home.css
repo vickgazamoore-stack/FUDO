@@ -419,3 +419,47 @@ header {
   font-size: 20px;
   margin: 0;
 }
+
+/* footer */
+.parent{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+}
+.div-parent{
+    width: 30%;
+}
+.div-child1{
+    display: flex;
+    gap: 7%;
+}
+.div-child2{
+    font-size: 1.5rem;
+    width: 58%;
+    line-height: 30px;
+}
+.div-child3{
+    display: flex;
+    color: red;
+    gap: 30px;
+    padding-top: 10px;
+}
+.div-parent-table{
+    width: 70%;
+    font-size: 1.5rem;
+}
+th{
+    text-align: left;
+    
+}
+td, th{
+    padding: 10px 30px;
+}
+.btn{
+    border: 3px gray;
+    border-radius: 50px;
+    color: black;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
